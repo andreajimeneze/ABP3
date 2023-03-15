@@ -1,0 +1,32 @@
+.bandera {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    height: 110px;
+    background-size: cover;
+    padding-top: 3%;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    padding: 0% 5%;
+}
+
+div.tarjeta {
+    border: 2px solid gray !important;
+    border-radius: 3%;
+    padding-left: 5%;
+}
+.card-body h6, h4, p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 5%;
+}
